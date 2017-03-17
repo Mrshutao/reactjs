@@ -1,0 +1,56 @@
+.sidebar {
+  background: #181d20;  
+  color: #cccccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 220px;
+  z-index: 12;
+  overflow: hidden;
+  font-size: 15px
+
+}
+.sidebar a {
+  color: #a6a6a6;
+}
+.sidebar .sidebar-header {
+  padding: 40px 0;
+  height: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.sidebar .sidebar-header img {
+  width: 50px;  
+  text-align: center;
+  margin: 0 1px 20px 0;
+}
+
+.sidebar .sidebar-menu {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 220px;
+}
+.nav-sidebar{
+	list-style: none;
+	width:100%;
+  padding:0px 20px
+}
+.nav-sidebar li{
+	cursor: pointer;
+	width:100%;
+  margin-top: 30px;
+}
+.nav-sidebar li a{
+	text-decoration: none;
+	width: 100%;
+  display: inline-block;
+  font-family: "Microsoft YaHei"
+}
+.nav-sidebar li a:hover span{
+	color: #f9ffff
+}
+.icon_right{
+	float: right;
+}
