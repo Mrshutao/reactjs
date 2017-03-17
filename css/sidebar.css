@@ -1,0 +1,52 @@
+.sidebar {
+  background: #181d20;  
+  color: #cccccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px;
+  z-index: 12;
+  overflow: hidden;
+}
+.sidebar a {
+  color: #848788;
+}
+.sidebar .sidebar-header {
+  padding: 10px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.sidebar .sidebar-header img {
+  width: 50px;  
+  text-align: center;
+  margin: 0 1px 20px 0;
+}
+
+.sidebar .sidebar-menu {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 240px;
+}
+.nav-sidebar{
+	list-style: none;
+	width:100%;
+}
+.nav-sidebar li{
+	cursor: pointer;
+	width:100%;
+	padding:10px 0px;
+}
+.nav-sidebar li a{
+	text-decoration: none;
+	width: 100%
+}
+.nav-sidebar li a:hover span{
+	color: #f9ffff
+}
+.icon_right{
+	float: right;
+	margin-right: 20px
+}
