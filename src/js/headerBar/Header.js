@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Panel,Grid,Button,Row,Col,Navbar,NavItem,Nav,NavDropdown,MenuItem} from "react-bootstrap";
-import {Link,browserHistory} from 'router';
+import {Link,browserHistory} from 'react-router';
 
 export default class HeaderBar extends Component {
 	constructor(props){
@@ -36,13 +36,11 @@ export default class HeaderBar extends Component {
                         <MenuItem divider />
                         <MenuItem eventKey={3.3}>Separated link</MenuItem>
                        
-                        <MenuItem><a href="#"><i className="fa fa-database"></i> Database </a>
+                       
+                     
+                        <MenuItem><i className="fa fa-bell"></i> Notification
                         </MenuItem>
-                        <MenuItem><a href="#"><i className="fa fa-bar-chart-o"></i> Connection </a>
-                        </MenuItem>
-                        <MenuItem><a href="#"><i className="fa fa-bell"></i> Notification </a>
-                        </MenuItem>
-                        <MenuItem><a href="#"><span className="fa fa-envelope"></span>退出登录 </a>
+                        <MenuItem><span className="fa fa-envelope"></span>退出登录
                         </MenuItem>
             
                         

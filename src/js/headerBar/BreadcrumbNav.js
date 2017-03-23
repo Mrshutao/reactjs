@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Row,Col,Button,Breadcrumb,BreadcrumbItem,NavItem,Nav,MenuItem} from "react-bootstrap";
-import {Link} from 'router';
+import {Link} from 'react-router';
 
 export default class BreadcrumbNav extends Component {
 	constructor(props){

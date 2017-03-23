@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Table,Button,Panel} from "react-bootstrap"
-import { Router,Route,hashHistory,Link,browserHistory} from 'router';
+import { Router,Route,hashHistory,Link,browserHistory} from 'react-router';
 import {LineChart, Line, XAxis, YAxis, CartesianGrid,Scatter, Tooltip, Legend,BarChart,Bar} from 'recharts';
 export default class tabel extends Component {
 	constructor(props){

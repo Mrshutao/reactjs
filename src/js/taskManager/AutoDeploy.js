@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {Table,Button,Panel,Pagination,Form,FormGroup,
 	InputGroup,FormControl,Grid,Col,Row,ControlLabel,
 	ButtonToolbar} from "react-bootstrap"
-import { Router,Route,hashHistory,Link,browserHistory} from 'router';
+import { Router,Route,hashHistory,Link,browserHistory} from 'react-router';
 
 import DeployModal from "./deployModal"
 import HTTPService from '../Utils/HTTPService'

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Row,Col,Button,Panel,ProgressBar,Form,FormGroup,FormControl} from "react-bootstrap";
-import {Link} from 'router';
+import {Link} from 'react-router';
 import Utils from './../Utils/Utils.js'
 import Page from './../Page.js'
 

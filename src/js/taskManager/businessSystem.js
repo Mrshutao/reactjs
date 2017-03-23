@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {Table,Button,Panel,Pagination,Form,FormGroup,ControlLabel,
 	InputGroup,FormControl,Grid,Col,Row,
 	ButtonToolbar} from "react-bootstrap"
-import { Router,Route,hashHistory,Link,browserHistory} from 'router';
+import { Router,Route,hashHistory,Link,browserHistory} from 'react-router';
 import TaskModal from "./registerModal"
 
 

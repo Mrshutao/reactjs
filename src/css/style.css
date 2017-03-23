@@ -42,6 +42,12 @@ Table th,td{text-align: center;}
 .btn-toolbar .btn{
   float:none;
 }
+.drag-container{
+  position:"relative";
+  width:100%;
+  height:100%;
+}
+
 /* .info-box
 =================================================================== */
 .info-box {

@@ -7,11 +7,8 @@ FieldGroup,
 Checkbox,
 ControlLabel
 } from "react-bootstrap";
-import {Link,browserHistory,router} from 'router';
+import {Link,browserHistory,router} from 'react-router';
 import HTTPService from './Utils/HTTPService'
-import "../css/style.min.css"
-
-
 export default class LoginPage extends Component {
 	constructor(props){
 		super(props);
@@ -30,7 +27,7 @@ export default class LoginPage extends Component {
 
 		return(
 
-	   		<div className="container-fluid ">
+	   		<div className="container-fluid">
 
 				<Row>
 					<Col sm={12}>

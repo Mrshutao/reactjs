@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
 import {Collapse} from "react-bootstrap";
-import {Link} from 'router';
-
-import "../../css/sidebar.css"
+import {Link} from 'react-router';
 export default class Tree extends Component {
 	constructor(props){
 		super(props);
@@ -60,7 +58,7 @@ export default class Tree extends Component {
 					var sub_nav=value.nodes.map((v,i)=>{
 						return(
 
-							<li>
+							<li key={i}>
 
 							<Link to={{pathname: v.href, state: { title: v.text }}}
 							activeStyle={{color: '#44bbd0'}}>
@@ -71,7 +69,7 @@ export default class Tree extends Component {
 						)
 					})
 					return(
-						<li >
+						<li key={index}>
 							<a onClick={()=>this.setFlag(index)}>
 								<i className={value.iconh1} style={{marginRight:10}}></i>
 								{value.text}
@@ -90,7 +88,7 @@ export default class Tree extends Component {
 					)
 				}else{
 					return(
-						<li>
+						<li key={index}>
 
 						<Link to={{pathname: value.href, state: { title: value.text }}}  activeStyle={{color: '#44bbd0'}}>
 						<i className={value.flag} style={{marginRight:10}}></i>{value.text}

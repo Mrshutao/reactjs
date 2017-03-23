@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Panel,Grid,Button,Row,Col,Navbar,NavItem,Nav,ListGroup,ListGroupItem} from "react-bootstrap";
-import {Link} from 'router';
+import {Link} from 'react-router';
 import Tree from "./sidebar/Tree.js"
 import HeaderBar from "./headerBar/Header.js"
 import BreadcrumbNav from "./headerBar/BreadcrumbNav.js"
@@ -22,7 +22,7 @@ export default class home extends Component {
 	   			
 		
 		
-		    	<Grid fluid='true'>
+		    	<Grid fluid={true}>
 				    <Row className="show-grid">
 				        <Col>
 						    

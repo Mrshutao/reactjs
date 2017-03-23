@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
 import {Table,Button,Panel,Row,Col} from "react-bootstrap"
-import { Router,Route,hashHistory,Link,browserHistory} from 'router';
+import { Router,Route,hashHistory,Link,browserHistory} from 'react-router';
 import { createHistory } from 'history'
 const history=createHistory();
 export default class DeployHistory extends Component{
@@ -63,7 +63,7 @@ export default class DeployHistory extends Component{
 			 			</Col>
 
 			 			<Col sm={6}>
-			 				<Button bsStyle="default" onClick={()=>this._back()}>返回</Button>
+			 				<Button onClick={()=>this._back()}>返回</Button>
 			 			</Col>
 			 		</Row>
 				    <Table bordered>

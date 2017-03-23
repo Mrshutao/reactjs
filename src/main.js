@@ -8,7 +8,7 @@ import App from './app'
 import editPage from './js/editPage'
 import home from './js/home'
 import realHome from './js/realHome'
-import testPage from './js/testPage'
+import testPage from './js/drag/Container'
 
 import loginPage from './js/loginPage'
 import rechart from './js/rechart'
@@ -16,7 +16,7 @@ import rechart from './js/rechart'
 import personTable from './js/personTable'
 import addPerson from './js/addPerson'
 import wizard from './js/form/WizardPage'
-import { Router,Route,browserHistory,IndexRoute,IndexRedirect} from 'router';
+import { Router,Route,browserHistory,IndexRoute,IndexRedirect} from 'react-router';
 
 
 ReactDOM.render((
